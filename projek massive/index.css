@@ -1,0 +1,33 @@
+*{
+  font-family: monserrat;
+}
+
+body{
+  background-color: white;
+
+}
+
+nav {
+  background-color: #102A71;
+
+}
+
+nav ul li a
+{
+  color: white;
+}
+
+.card-container .card {
+  transform: scale(1,1); /* Scale down the card to 90% of its original size */
+}
+.card-container .card-body h5 {
+  font-size: 1.2rem; /* Adjust font size as needed */
+}
+.card-container .card-body p {
+  font-size: 0.9rem; /* Adjust font size as needed */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
